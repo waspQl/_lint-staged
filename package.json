@@ -12,7 +12,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts}": [
+    "*.{js,ts,json}": [
       "npx prettier --write",
       "git add"
     ]
